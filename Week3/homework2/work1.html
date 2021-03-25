@@ -1,0 +1,51 @@
+<DOCTYPE! HTML>
+<html ln="ge">
+<head>
+<title>border radius თვისება</title>
+<style>
+    .red{
+        border: 5px solid black;
+        border-radius: 50px 50px 50px 50px;
+        height: 150px;
+        width: 150px;
+        text-align: start;
+        /* padding-left: 20px;
+        padding-top: 20px; */
+        /* box-sizing: content-box; */
+        padding: 20px;
+        background-color: red;
+        background-image: url(../bgphoto.png);
+    }
+    
+    .none{
+        border: 5px solid black;
+        border-radius: 50px 50px 50px 50px;
+        height: 150px;
+        width: 150px;
+        text-align: bottom;
+
+    }
+    .pic{
+        border: 5px solid black;
+        border-radius: 50px 50px 50px 50px;
+        height: 150px;
+        width: 150px; 
+     }
+
+</style>
+</head>
+<body>
+<p>მომრგვალებული კუთხეები ფონის მქონე ელემენტისთვის:</p>
+    <div class="red">მართკუთხედი მომრგვალებული კუთხეებით.</div>
+
+
+<div>მომრგვალებული კუთხეები ჩარჩოიანი ელემენტისათვის:
+    <p class="none">მართკუთხედი მომრგვალებული კუთხეებით.</p>
+
+</div>
+<div>მომრგვალებული კუთხეები ფონურგამოსახულებიანი ელემენტისათვის:
+    <p class="pic">მართკუთხედი მომრგვალებული კუთხეებით.</p>
+
+</div>
+</body>
+</html>
