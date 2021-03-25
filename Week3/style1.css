@@ -1,0 +1,17 @@
+div{
+   border: solid 1px blue;
+   height: 500px;
+   width: 900px;
+   background-color: aqua;
+   margin: 20px auto;
+}
+
+.div1{
+   background-image: url(bgphoto.png);
+   /* background-repeat: repeat-x;
+   background-position: bottom; */
+   background-repeat: no-repeat;
+   /* background-size: 100% 100%; */
+   background-position: top;
+   background-attachment: fixed;
+}
