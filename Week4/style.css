@@ -1,0 +1,51 @@
+
+body{
+   height: 2000px;
+}
+
+div{
+   height: 300px;
+   width: 400px;
+   border: solid 4px blueviolet;
+   font-size: 30px;
+}
+
+.d1{
+   background-color: yellow;
+   /* position: static; */
+   /* top:300px; */
+   /* left: 100px;
+   right: 200px;
+   bottom: 200px; */
+   position: fixed;
+   bottom:100px;
+   right:-250px;
+}
+
+p{
+   height: 100px;
+}
+
+.d2{
+   background-color: yellowgreen;
+   width: 500px;
+   position: sticky;
+   top:300px
+}
+
+.d3{
+   background-color:red;
+   width: 700px;
+   margin: auto;
+   position: relative;
+}
+
+.box{
+   width: 100px;
+   height: 100px;
+   background-color: aqua;
+   border-radius: 50%;
+   position: absolute;
+   right: -30px;
+   bottom: 0;
+}
