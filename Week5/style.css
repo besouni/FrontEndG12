@@ -1,0 +1,18 @@
+form, div{
+   width: 500px;
+   min-height: 250px;
+   border: solid black 3px;
+   margin: 20px auto;
+   padding: 20px;
+}
+
+.butt1{
+   padding: 10px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.butt1:hover{
+   background-color: aquamarine;
+   border-radius: 50%;
+}
