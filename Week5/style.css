@@ -1,5 +1,5 @@
 form, div{
-   width: 500px;
+   width: 550px;
    min-height: 250px;
    border: solid black 3px;
    margin: 20px auto;
@@ -15,4 +15,20 @@ form, div{
 .butt1:hover{
    background-color: aquamarine;
    border-radius: 50%;
+}
+
+.input1{
+   padding: 8px;
+   border: none;
+   border-bottom: solid 3px silver;
+   color: brown;
+   font-weight: bold;
+   text-decoration: line-through;
+}
+
+.input1:focus{
+   border-bottom: solid 5px green;
+   background-color: beige;
+   outline: none;
+   /* outline: solid 10px yellow; */
 }

@@ -1,0 +1,96 @@
+header, main, footer{
+   border: solid 2px silver;
+   width: 70%;
+   margin: 20px auto;
+}
+
+header{
+   height: 100px;
+   background-color: antiquewhite;
+}
+
+footer{
+   height: 50px;
+   background-color: antiquewhite;
+}
+
+main{
+   min-height: 400px;
+   background-color: bisque;
+}
+
+nav{
+   width: 20%;
+   background-color: aqua;
+   padding-bottom: 50px;
+   float: left;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+nav ul li a{
+   text-decoration: none;
+   padding: 8px;
+   border-bottom: solid 3px sandybrown ;
+   display: block;
+}
+
+nav ul li a:hover{
+  background-color: blanchedalmond; 
+}
+
+.content{
+   width: 80%;
+   min-height: 400px;
+   background-color: cadetblue;
+   float: left;
+}
+
+.section1{
+   border: solid black 3px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.section1 div{
+   height: 100px;
+   width: 33.3%;
+   background-color: beige;
+   border: solid brown 1px;
+   float: left;
+   box-sizing: border-box;
+}
+
+.section2{
+   border: solid black 3px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.section2 div{
+   height: 100px;
+   width: 50%;
+   background-color: beige;
+   border: solid brown 1px;
+   float: left;
+   box-sizing: border-box;
+}
+
+.section3{
+   border: solid black 3px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.section3 div{
+   height: 100px;
+   width: 100%;
+   background-color: beige;
+   border: solid brown 1px;
+   float: left;
+   box-sizing: border-box;
+}
