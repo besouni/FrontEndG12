@@ -1,0 +1,55 @@
+.container, .container1, .container2, .container3{
+   border: solid black 2px;
+   width: 70%;
+   min-height: 100px;
+   margin: 10px auto;
+   background-color: antiquewhite;
+   padding: 10px;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.container3{
+   justify-content: space-between;
+   flex-direction: row;
+}
+
+.container3 div{
+   background-color: aqua;
+   border: solid green 3px;
+   /* width: 24%; */
+   box-sizing: border-box;
+   margin: 10px;
+}
+
+.container div{
+   background-color: aqua;
+   border: solid green 3px;
+   width: 100px;
+}
+
+.container1{
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.container1 div{
+   background-color: aqua;
+   border: solid green 3px;
+   width: 100px;
+}
+
+.container2{
+   min-height: 300px;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.container2 div{
+   background-color: aqua;
+   border: solid green 3px;
+   width: 24%;
+   box-sizing: border-box;
+}
