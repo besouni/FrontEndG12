@@ -1,0 +1,30 @@
+.header, .content, .footer, .under-footer{
+   border: solid 2px gray;
+   width: 70%;
+   min-height: 80px;
+   margin:auto;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+.footer, .under-footer{
+   min-height: 30px;
+   background-color: aqua;
+}
+
+.header1{
+   width: 40%;
+   border: solid 10px green;
+   border-radius: 50%;
+}
+
+p{
+   background-color: antiquewhite;
+   border: solid 1px gray;
+   height: 20px;
+}
+
+.p1{
+   background-color:burlywood;
+   height: 60px;
+}
