@@ -1,0 +1,52 @@
+.ball{
+   width: 20px;
+   height: 20px;
+   border: solid 2px blue;
+   box-sizing: border-box;
+   border-radius: 50%;
+   background-color: yellowgreen;
+   position:absolute;
+   cursor:crosshair;
+}
+
+.controls{
+   margin-bottom: 20px;
+}
+
+main {
+   width: 60%;
+   margin: auto;
+   padding: 10px;
+   border: solid 2px gray;
+}
+
+form{
+   border: solid 2px gray;
+   height: 100px;
+   background-color: antiquewhite;
+}
+
+.keyboard{
+   margin-bottom: 10px;
+   border: solid 2px gray;
+   height: 100px;
+   background-color: aqua;
+}
+
+
+.content{
+   margin-top: 10px;
+   border: solid 2px gray;
+   height: 100px;
+   background-color: aqua;
+}
+
+.square{
+   border: solid 2px gray;
+   height: 200px;
+   background-color: aqua;
+   width: 700px;
+   margin: auto;
+   margin-bottom: 10px;
+   position: relative;
+}
