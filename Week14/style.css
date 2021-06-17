@@ -1,0 +1,11 @@
+div{
+   border: solid 1px gray;
+   width: 700px;
+   min-height: 100px;
+   margin: 10px auto;
+   background-color: aliceblue;
+}
+
+#p3{
+   background-color: beige;
+}
